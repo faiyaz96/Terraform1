@@ -1,5 +1,5 @@
 variable "name" {
-	default = "test"
+	default = "maketest"
 }
 
 variable "zone" {
@@ -10,10 +10,3 @@ variable "machine_type" {
 	default = "n1-standard-1"
 }
 
-variable "tags" {
-	default = []
-}
-
-variable "scripts" {
-	default = []
-}
